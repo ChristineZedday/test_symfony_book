@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Modifier{% endblock %}
+
+{% block body %}
+<div class="example-wrapper">
+    <h1>Modifier un livre</h1>
+
+    {{ include('book/_form.html.twig') }}
+
+ <p>   <a href="{{ path('book') }}">Retour à la liste</a></p>
+ </div>
+   
+{% endblock %}
